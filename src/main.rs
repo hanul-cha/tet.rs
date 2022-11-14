@@ -1,3 +1,6 @@
+use tetris::Tet;
+
 fn main() {
-    println!("Hello, world!");
+  let mut tet = Tet::new();
+  tet.start().unwrap();
 }
